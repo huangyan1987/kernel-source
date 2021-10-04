@@ -3,7 +3,7 @@ Date: Fri, 23 Apr 2021 18:12:35 -0700
 Patch-mainline: v5.13-rc1
 Subject: hv_netvsc: Make netvsc/VF binding check both MAC and serial number
 Git-commit: 64ff412ad41fe3a5bf759ff4844dc1382176485c
-References: bsc#1186071
+References: jsc#SLE-18779, bsc#1185726
 
 Currently the netvsc/VF binding logic only checks the PCI serial number.
 
